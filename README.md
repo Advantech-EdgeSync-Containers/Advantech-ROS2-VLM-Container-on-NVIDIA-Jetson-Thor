@@ -4,6 +4,14 @@
 
 This package provides a containerized ROS2 Jazzy environment with CUDA 13.0, OpenCV 4.13, and PyTorch for NVIDIA Jetson Thor (JetPack 7.0). It includes the Orbbec camera SDK and Advantech vision applications with VLM integration, YOLO object detection, and RGB-D depth estimation.
 
+> ⚠️ **Notice**
+>
+> Some packages, container images, model files, or SDK components required by this project are **not included in this repository**.
+>  
+> These files are provided **upon request** due to licensing, size, or distribution restrictions.
+>  
+> Please contact the maintainer for access.
+
 ## System Requirements
 
 ### Hardware Requirements
