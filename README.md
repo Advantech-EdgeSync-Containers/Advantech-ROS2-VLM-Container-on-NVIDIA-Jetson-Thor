@@ -6,11 +6,8 @@ This package provides a containerized ROS2 Jazzy environment with CUDA 13.0, Ope
 
 > ⚠️ **Notice**
 >
-> Some packages, container images, model files, or SDK components required by this project are **not included in this repository**.
->  
-> These files are provided **upon request** due to licensing, size, or distribution restrictions.
->  
-> Please contact the maintainer for access.
+> Certain components referenced in this repository are not included and may be provided upon request, subject to licensing and distribution constraints.
+
 
 ## System Requirements
 
