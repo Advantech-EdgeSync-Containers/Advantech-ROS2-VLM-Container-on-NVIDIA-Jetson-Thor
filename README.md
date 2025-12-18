@@ -101,9 +101,9 @@ advantech-vision/
 ├── build.sh                           # Build and start container
 ├── run.sh                             # Launch camera node
 ├── docker-compose.yml                 # Container configuration
-├── advantech_ros2_vision_v1.0.tar.gz  # Container image
+├── advantech_ros2_vision_v1.0.tar.gz  # Container image                      # Provided upon request
 ├── README.md
-└── ros2/                              # ROS2 workspace (mounted)
+└── ros2/                              # ROS2 workspace (mounted)             # Provided upon request
     ├── entrypoint.sh                  # Environment setup script
     ├── cache                          # cached vlm and yolo models directory
     ├── src/                           # Source packages
