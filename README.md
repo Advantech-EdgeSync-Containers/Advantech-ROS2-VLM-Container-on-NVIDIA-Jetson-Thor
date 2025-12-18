@@ -585,7 +585,6 @@ docker rmi advantech_ros2_vision:v1.0
 - **NVIDIA Jetson Thor**: https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/
 
 ## Maintainer
-
-Samir Singh  
-samir.singh@advantech.com  
+Benson Chen (benson.chen@advantech.com.tw)
+Samir Singh (samir.singh@advantech.com)
 Advantech Corporation
