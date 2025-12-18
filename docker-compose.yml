@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+  advantech_vision:
+    image: advantech_ros2_vision:v1.0
+    container_name: advantech_vision
+    runtime: nvidia
+    network_mode: host
+    privileged: true
+    stdin_open: true
+    tty: true
+    environment:
+      - DISPLAY=${DISPLAY}
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+    volumes:
+      - /dev:/dev
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ./ros2:/advantech_ws
+    restart: unless-stopped
+    command: bash
